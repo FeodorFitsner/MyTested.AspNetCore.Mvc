@@ -1,0 +1,789 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseTestBuilderWithResponseModel&lt;TActionResult&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseTestBuilderWithResponseModel&lt;TActionResult&gt;
+   ">
+    <meta name="generator" content="docfx 1.9.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L23" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1">Class BaseTestBuilderWithResponseModel&lt;TActionResult&gt;
+              </h1>
+              <div class="markdown level0 summary"><p>Base class for all test builders with response model.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><a class="xref" href="MyTested.Mvc.Builders.Base.BaseTestBuilder.html#MyTested_Mvc_Builders_Base_BaseTestBuilder">BaseTestBuilder</a></div>
+                  <div class="level2"><a class="xref" href="MyTested.Mvc.Builders.Base.BaseTestBuilderWithController.html#MyTested_Mvc_Builders_Base_BaseTestBuilderWithController">BaseTestBuilderWithController</a></div>
+                  <div class="level3"><a class="xref" href="MyTested.Mvc.Builders.Base.BaseTestBuilderWithAction.html#MyTested_Mvc_Builders_Base_BaseTestBuilderWithAction">BaseTestBuilderWithAction</a></div>
+                  <div class="level4"><a class="xref" href="MyTested.Mvc.Builders.Base.BaseTestBuilderWithInvokedAction.html#MyTested_Mvc_Builders_Base_BaseTestBuilderWithInvokedAction">BaseTestBuilderWithInvokedAction</a></div>
+                  <div class="level5"><a class="xref" href="MyTested.Mvc.Builders.Base.BaseTestBuilderWithActionResult%601.html#MyTested_Mvc_Builders_Base_BaseTestBuilderWithActionResult_1">BaseTestBuilderWithActionResult</a>&lt;TActionResult&gt;</div>
+                  <div class="level6"><span class="xref">BaseTestBuilderWithResponseModel&lt;TActionResult&gt;</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:MyTested.Mvc.Builders.Base</h6>
+              <h6><strong>Assembly</strong>:MyTested.Mvc.dll</h6>
+              <h5 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public abstract class BaseTestBuilderWithResponseModel&lt;TActionResult&gt; : BaseTestBuilderWithActionResult&lt;TActionResult&gt;, IBaseTestBuilderWithActionResult&lt;TActionResult&gt;, IBaseTestBuilderWithResponseModel, IBaseTestBuilderWithInvokedAction, IBaseTestBuilderWithAction, IBaseTestBuilderWithController, IBaseTestBuilder</code></pre>
+              </div>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TActionResult</em></td>
+                    <td>Result from invoked action in ASP.NET Core MVC controller.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="constructors">Constructors
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1__ctor_MyTested_Mvc_Internal_TestContexts_ControllerTestContext_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.%23ctor(MyTested.Mvc.Internal.TestContexts.ControllerTestContext)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L33">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1__ctor_MyTested_Mvc_Internal_TestContexts_ControllerTestContext_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.#ctor(MyTested.Mvc.Internal.TestContexts.ControllerTestContext)">BaseTestBuilderWithResponseModel(ControllerTestContext)</h4>
+              <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.html#MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1">BaseTestBuilderWithResponseModel&lt;TActionResult&gt;</a> class.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected BaseTestBuilderWithResponseModel(ControllerTestContext testContext)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="MyTested.Mvc.Internal.TestContexts.ControllerTestContext.html#MyTested_Mvc_Internal_TestContexts_ControllerTestContext">ControllerTestContext</a></td>
+                    <td><em>testContext</em></td>
+                    <td><p><a class="xref" href="MyTested.Mvc.Internal.TestContexts.ControllerTestContext.html#MyTested_Mvc_Internal_TestContexts_ControllerTestContext">ControllerTestContext</a> containing data about the currently executed assertion chain.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ErrorMessageFormat.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ErrorMessageFormat%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L44">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ErrorMessageFormat" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ErrorMessageFormat">ErrorMessageFormat</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the error message format for the response model assertions.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected string ErrorMessageFormat
+{
+    get;
+    set;
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>String value.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_OfTypeErrorMessageFormat.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.OfTypeErrorMessageFormat%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L50">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_OfTypeErrorMessageFormat" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.OfTypeErrorMessageFormat">OfTypeErrorMessageFormat</h4>
+              <div class="markdown level1 summary"><p>Gets or sets the error message format for the response model type assertions.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected string OfTypeErrorMessageFormat
+{
+    get;
+    set;
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>String value.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ThrowNewFailedValidationException_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ThrowNewFailedValidationException(System.String%2CSystem.String%2CSystem.String)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L225">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ThrowNewFailedValidationException_System_String_System_String_System_String_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ThrowNewFailedValidationException(System.String,System.String,System.String)">ThrowNewFailedValidationException(String, String, String)</h4>
+              <div class="markdown level1 summary"><p>When overridden in a derived class, it will be used to throw failed validation exception.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected abstract void ThrowNewFailedValidationException(string propertyName, string expectedValue, string actualValue)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>propertyName</em></td>
+                    <td><p>Property name on which the testing failed.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>expectedValue</em></td>
+                    <td><p>Expected value of the tested property.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>actualValue</em></td>
+                    <td><p>Actual value of the tested property.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOfContentType_Microsoft_Net_Http_Headers_MediaTypeHeaderValue_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContainingOfContentType(Microsoft.Net.Http.Headers.MediaTypeHeaderValue)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L129">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOfContentType_Microsoft_Net_Http_Headers_MediaTypeHeaderValue_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContainingOfContentType(Microsoft.Net.Http.Headers.MediaTypeHeaderValue)">ValidateContainingOfContentType(MediaTypeHeaderValue)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same content type as the provided MediaTypeHeaderValue.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContainingOfContentType(MediaTypeHeaderValue contentType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.Net.Http.Headers.MediaTypeHeaderValue</span></td>
+                    <td><em>contentType</em></td>
+                    <td><p>Expected content type as <span class="xref">Microsoft.Net.Http.Headers.MediaTypeHeaderValue</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOfContentType_System_String_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContainingOfContentType(System.String)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L120">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOfContentType_System_String_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContainingOfContentType(System.String)">ValidateContainingOfContentType(String)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same content type as the provided one.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContainingOfContentType(string contentType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>contentType</em></td>
+                    <td><p>Expected content type as string.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOfOutputFormatter_Microsoft_AspNetCore_Mvc_Formatters_IOutputFormatter_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContainingOfOutputFormatter(Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L180">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOfOutputFormatter_Microsoft_AspNetCore_Mvc_Formatters_IOutputFormatter_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContainingOfOutputFormatter(Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter)">ValidateContainingOfOutputFormatter(IOutputFormatter)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same output formatter as the provided one.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContainingOfOutputFormatter(IOutputFormatter outputFormatter)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter</span></td>
+                    <td><em>outputFormatter</em></td>
+                    <td><p>Expected instance of <span class="xref">Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOutputFormatterOfType__1.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContainingOutputFormatterOfType%60%601%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L192">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContainingOutputFormatterOfType__1" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContainingOutputFormatterOfType``1">ValidateContainingOutputFormatterOfType&lt;TOutputFormatter&gt;()</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains type of output formatter as the provided one.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContainingOutputFormatterOfType&lt;TOutputFormatter&gt;()where TOutputFormatter : IOutputFormatter</code></pre>
+              </div>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TOutputFormatter</em></td>
+                    <td>Expected type of <span class="xref">Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter</span>.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_Microsoft_Net_Http_Headers_MediaTypeHeaderValue___.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContentTypes(Microsoft.Net.Http.Headers.MediaTypeHeaderValue%5B%5D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L171">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_Microsoft_Net_Http_Headers_MediaTypeHeaderValue___" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContentTypes(Microsoft.Net.Http.Headers.MediaTypeHeaderValue[])">ValidateContentTypes(MediaTypeHeaderValue[])</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same content types as the provided ones.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContentTypes(params MediaTypeHeaderValue[] contentTypes)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.Net.Http.Headers.MediaTypeHeaderValue</span>[]</td>
+                    <td><em>contentTypes</em></td>
+                    <td><p>Expected content types as <span class="xref">Microsoft.Net.Http.Headers.MediaTypeHeaderValue</span> parameters.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_System_Collections_Generic_IEnumerable_Microsoft_Net_Http_Headers_MediaTypeHeaderValue__.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContentTypes(System.Collections.Generic.IEnumerable%7BMicrosoft.Net.Http.Headers.MediaTypeHeaderValue%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L159">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_System_Collections_Generic_IEnumerable_Microsoft_Net_Http_Headers_MediaTypeHeaderValue__" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContentTypes(System.Collections.Generic.IEnumerable{Microsoft.Net.Http.Headers.MediaTypeHeaderValue})">ValidateContentTypes(IEnumerable&lt;MediaTypeHeaderValue&gt;)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same content types as the provided ones.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContentTypes(IEnumerable&lt;MediaTypeHeaderValue&gt; contentTypes)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">Microsoft.Net.Http.Headers.MediaTypeHeaderValue</span>&gt;</td>
+                    <td><em>contentTypes</em></td>
+                    <td><p>Expected content types as collection of <span class="xref">Microsoft.Net.Http.Headers.MediaTypeHeaderValue</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContentTypes(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L141">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_System_Collections_Generic_IEnumerable_System_String__" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContentTypes(System.Collections.Generic.IEnumerable{System.String})">ValidateContentTypes(IEnumerable&lt;String&gt;)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same content types as the provided ones.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContentTypes(IEnumerable&lt;string&gt; contentTypes)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>contentTypes</em></td>
+                    <td><p>Expected content types as collection of strings.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_System_String___.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateContentTypes(System.String%5B%5D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L150">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateContentTypes_System_String___" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateContentTypes(System.String[])">ValidateContentTypes(String[])</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same content types as the provided ones.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateContentTypes(params string[] contentTypes)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td><em>contentTypes</em></td>
+                    <td><p>Expected content types as string parameters.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateOutputFormatters_Microsoft_AspNetCore_Mvc_Formatters_IOutputFormatter___.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateOutputFormatters(Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter%5B%5D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L216">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateOutputFormatters_Microsoft_AspNetCore_Mvc_Formatters_IOutputFormatter___" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateOutputFormatters(Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter[])">ValidateOutputFormatters(IOutputFormatter[])</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same output formatters as the provided ones.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateOutputFormatters(params IOutputFormatter[] outputFormatters)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter</span>[]</td>
+                    <td><em>outputFormatters</em></td>
+                    <td><p>Expected <span class="xref">Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter</span> parameters.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateOutputFormatters_System_Collections_Generic_IEnumerable_Microsoft_AspNetCore_Mvc_Formatters_IOutputFormatter__.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateOutputFormatters(System.Collections.Generic.IEnumerable%7BMicrosoft.AspNetCore.Mvc.Formatters.IOutputFormatter%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L204">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateOutputFormatters_System_Collections_Generic_IEnumerable_Microsoft_AspNetCore_Mvc_Formatters_IOutputFormatter__" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateOutputFormatters(System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter})">ValidateOutputFormatters(IEnumerable&lt;IOutputFormatter&gt;)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result contains the same output formatters as the provided ones.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateOutputFormatters(IEnumerable&lt;IOutputFormatter&gt; outputFormatters)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter</span>&gt;</td>
+                    <td><em>outputFormatters</em></td>
+                    <td><p>Expected collection of <span class="xref">Microsoft.AspNetCore.Mvc.Formatters.IOutputFormatter</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateStatusCode_System_Int32_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateStatusCode(System.Int32)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L99">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateStatusCode_System_Int32_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateStatusCode(System.Int32)">ValidateStatusCode(Int32)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result has the same status code as the provided one.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateStatusCode(int statusCode)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>statusCode</em></td>
+                    <td><p>Status code as integer.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateStatusCode_System_Net_HttpStatusCode_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.ValidateStatusCode(System.Net.HttpStatusCode)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L108">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_ValidateStatusCode_System_Net_HttpStatusCode_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.ValidateStatusCode(System.Net.HttpStatusCode)">ValidateStatusCode(HttpStatusCode)</h4>
+              <div class="markdown level1 summary"><p>Tests whether action result has the same status code as the provided HttpStatusCode.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected void ValidateStatusCode(HttpStatusCode statusCode)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Net.HttpStatusCode</span></td>
+                    <td><em>statusCode</em></td>
+                    <td><p><span class="xref">System.Net.HttpStatusCode</span> enumeration.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_WithResponseModel__1___0_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.WithResponseModel%60%601(%60%600)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L77">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_WithResponseModel__1___0_" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.WithResponseModel``1(``0)">WithResponseModel&lt;TResponseModel&gt;(TResponseModel)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IModelDetailsTestBuilder&lt;TResponseModel&gt; WithResponseModel&lt;TResponseModel&gt;(TResponseModel expectedModel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TResponseModel</span></td>
+                    <td><em>expectedModel</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="MyTested.Mvc.Builders.Contracts.Models.IModelDetailsTestBuilder%601.html#MyTested_Mvc_Builders_Contracts_Models_IModelDetailsTestBuilder_1">IModelDetailsTestBuilder</a>&lt;TResponseModel&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TResponseModel</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_WithResponseModelOfType__1.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel%601.WithResponseModelOfType%60%601%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Builders/Base/BaseTestBuilderWithResponseModel.cs/#L53">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Builders_Base_BaseTestBuilderWithResponseModel_1_WithResponseModelOfType__1" data-uid="MyTested.Mvc.Builders.Base.BaseTestBuilderWithResponseModel`1.WithResponseModelOfType``1">WithResponseModelOfType&lt;TResponseModel&gt;()</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IModelDetailsTestBuilder&lt;TResponseModel&gt; WithResponseModelOfType&lt;TResponseModel&gt;()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="MyTested.Mvc.Builders.Contracts.Models.IModelDetailsTestBuilder%601.html#MyTested_Mvc_Builders_Contracts_Models_IModelDetailsTestBuilder_1">IModelDetailsTestBuilder</a>&lt;TResponseModel&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TResponseModel</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

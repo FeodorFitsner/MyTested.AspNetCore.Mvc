@@ -1,0 +1,1428 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Reflection
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Reflection
+   ">
+    <meta name="generator" content="docfx 1.9.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L16" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="MyTested_Mvc_Utilities_Reflection" data-uid="MyTested.Mvc.Utilities.Reflection">Class Reflection
+              </h1>
+              <div class="markdown level0 summary"><p>Class for validating reflection checks.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">Reflection</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:MyTested.Mvc.Utilities</h6>
+              <h6><strong>Assembly</strong>:MyTested.Mvc.dll</h6>
+              <h5 id="MyTested_Mvc_Utilities_Reflection_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class Reflection</code></pre>
+              </div>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreAssignable_System_Type_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreAssignable(System.Type%2CSystem.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L78">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreAssignable_System_Type_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.AreAssignable(System.Type,System.Type)">AreAssignable(Type, Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two types are assignable.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreAssignable(Type baseType, Type inheritedType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>baseType</em></td>
+                    <td><p>Base type to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>inheritedType</em></td>
+                    <td><p>Inherited type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreAssignableByGeneric_System_Type_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreAssignableByGeneric(System.Type%2CSystem.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L130">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreAssignableByGeneric_System_Type_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.AreAssignableByGeneric(System.Type,System.Type)">AreAssignableByGeneric(Type, Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two types are assignable by generic definition.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreAssignableByGeneric(Type baseType, Type inheritedType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>baseType</em></td>
+                    <td><p>Base type to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>inheritedType</em></td>
+                    <td><p>Inherited type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreDeeplyEqual_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreDeeplyEqual(System.Object%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L332">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreDeeplyEqual_System_Object_System_Object_" data-uid="MyTested.Mvc.Utilities.Reflection.AreDeeplyEqual(System.Object,System.Object)">AreDeeplyEqual(Object, Object)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two objects are deeply equal by reflecting all their public properties recursively. Resolves successfully value and reference types, overridden Equals method, custom == operator, IComparable, nested objects and collection properties.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreDeeplyEqual(object expected, object actual)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>expected</em></td>
+                    <td><p>Expected object.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>actual</em></td>
+                    <td><p>Actual object.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreDifferentTypes_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreDifferentTypes(System.Object%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L56">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreDifferentTypes_System_Object_System_Object_" data-uid="MyTested.Mvc.Utilities.Reflection.AreDifferentTypes(System.Object,System.Object)">AreDifferentTypes(Object, Object)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two objects have different types.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreDifferentTypes(object firstObject, object secondObject)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>firstObject</em></td>
+                    <td><p>First object to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>secondObject</em></td>
+                    <td><p>Second object to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreDifferentTypes_System_Type_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreDifferentTypes(System.Type%2CSystem.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L67">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreDifferentTypes_System_Type_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.AreDifferentTypes(System.Type,System.Type)">AreDifferentTypes(Type, Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two types are different.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreDifferentTypes(Type firstType, Type secondType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>firstType</em></td>
+                    <td><p>First type to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>secondType</em></td>
+                    <td><p>Second type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreNotAssignable_System_Type_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreNotAssignable(System.Type%2CSystem.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L89">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreNotAssignable_System_Type_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.AreNotAssignable(System.Type,System.Type)">AreNotAssignable(Type, Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two types are not assignable.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreNotAssignable(Type baseType, Type inheritedType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>baseType</em></td>
+                    <td><p>Base type to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>inheritedType</em></td>
+                    <td><p>Inherited type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreNotDeeplyEqual_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreNotDeeplyEqual(System.Object%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L344">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreNotDeeplyEqual_System_Object_System_Object_" data-uid="MyTested.Mvc.Utilities.Reflection.AreNotDeeplyEqual(System.Object,System.Object)">AreNotDeeplyEqual(Object, Object)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two objects are not deeply equal by reflecting all their public properties recursively. Resolves successfully value and reference types, overridden Equals method, custom == operator, IComparable, nested objects and collection properties.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 id="MyTested_Mvc_Utilities_Reflection_AreNotDeeplyEqual_System_Object_System_Object__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This method is used for the route testing. Since the ASP.NET Core MVC model binder creates new instances, circular references are not checked.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreNotDeeplyEqual(object expected, object actual)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>expected</em></td>
+                    <td><p>Expected object.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>actual</em></td>
+                    <td><p>Actual object.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreSameTypes_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreSameTypes(System.Object%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L29">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreSameTypes_System_Object_System_Object_" data-uid="MyTested.Mvc.Utilities.Reflection.AreSameTypes(System.Object,System.Object)">AreSameTypes(Object, Object)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two objects have the same types.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreSameTypes(object firstObject, object secondObject)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>firstObject</em></td>
+                    <td><p>First object to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>secondObject</em></td>
+                    <td><p>Second object to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_AreSameTypes_System_Type_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.AreSameTypes(System.Type%2CSystem.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L45">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_AreSameTypes_System_Type_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.AreSameTypes(System.Type,System.Type)">AreSameTypes(Type, Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two types are different.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AreSameTypes(Type firstType, Type secondType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>firstType</em></td>
+                    <td><p>First type to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>secondType</em></td>
+                    <td><p>Second type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_CastTo__1_System_Type_System_Object_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.CastTo%60%601(System.Type%2CSystem.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L182">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_CastTo__1_System_Type_System_Object_" data-uid="MyTested.Mvc.Utilities.Reflection.CastTo``1(System.Type,System.Object)">CastTo&lt;TResult&gt;(Type, Object)</h4>
+              <div class="markdown level1 summary"><p>Performs dynamic casting from type to generic result.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static TResult CastTo&lt;TResult&gt;(Type type, object data)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td><p>Type from which the casting should be done.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>data</em></td>
+                    <td><p>Object from which the casting should be done.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TResult</span></td>
+                    <td><p>Casted object of type TResult.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TResult</em></td>
+                    <td>Result type from casting.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_ContainsGenericTypeDefinitionInterface_System_Type_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.ContainsGenericTypeDefinitionInterface(System.Type%2CSystem.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L166">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_ContainsGenericTypeDefinitionInterface_System_Type_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.ContainsGenericTypeDefinitionInterface(System.Type,System.Type)">ContainsGenericTypeDefinitionInterface(Type, Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether generic definition contains an base interface generic definition.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ContainsGenericTypeDefinitionInterface(Type baseType, Type inheritedType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>baseType</em></td>
+                    <td><p>Base type to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>inheritedType</em></td>
+                    <td><p>Inherited type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_CreateDelegateFromMethod__1_System_Object_System_Func_System_Reflection_MethodInfo_System_Boolean__.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.CreateDelegateFromMethod%60%601(System.Object%2CSystem.Func%7BSystem.Reflection.MethodInfo%2CSystem.Boolean%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L356">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_CreateDelegateFromMethod__1_System_Object_System_Func_System_Reflection_MethodInfo_System_Boolean__" data-uid="MyTested.Mvc.Utilities.Reflection.CreateDelegateFromMethod``1(System.Object,System.Func{System.Reflection.MethodInfo,System.Boolean})">CreateDelegateFromMethod&lt;TDelegate&gt;(Object, Func&lt;MethodInfo, Boolean&gt;)</h4>
+              <div class="markdown level1 summary"><p>Creates a delegate from an object by providing MethodInfo filter.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static TDelegate CreateDelegateFromMethod&lt;TDelegate&gt;(object instance, Func&lt;MethodInfo, bool&gt; methodFilter)where TDelegate : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>instance</em></td>
+                    <td><p>Object to get method from.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Reflection.MethodInfo</span>, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><em>methodFilter</em></td>
+                    <td><p>Filter to find the method.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TDelegate</span></td>
+                    <td><p>Delegate of type TDelegate.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TDelegate</em></td>
+                    <td>Type of delegate to create.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_DynamicPropertyExists_System_Object_System_String_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.DynamicPropertyExists(System.Object%2CSystem.String)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L378">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_DynamicPropertyExists_System_Object_System_String_" data-uid="MyTested.Mvc.Utilities.Reflection.DynamicPropertyExists(System.Object,System.String)">DynamicPropertyExists(Object, String)</h4>
+              <div class="markdown level1 summary"><p>Checks whether property with the provided name exists in a dynamic object.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool DynamicPropertyExists(dynamic dynamicObject, string propertyName)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>dynamicObject</em></td>
+                    <td><p>Dynamic object to check.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>propertyName</em></td>
+                    <td><p>Property name to check.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or False.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_GetCustomAttributes_System_Object_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.GetCustomAttributes(System.Object)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L309">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_GetCustomAttributes_System_Object_" data-uid="MyTested.Mvc.Utilities.Reflection.GetCustomAttributes(System.Object)">GetCustomAttributes(Object)</h4>
+              <div class="markdown level1 summary"><p>Gets custom attributes on the provided object.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IEnumerable&lt;object&gt; GetCustomAttributes(object obj)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><em>obj</em></td>
+                    <td><p>Object decorated with custom attribute.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+                    <td><p>IEnumerable of objects representing the custom attributes.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_GetCustomAttributes_System_Reflection_MethodInfo_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.GetCustomAttributes(System.Reflection.MethodInfo)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L318">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_GetCustomAttributes_System_Reflection_MethodInfo_" data-uid="MyTested.Mvc.Utilities.Reflection.GetCustomAttributes(System.Reflection.MethodInfo)">GetCustomAttributes(MethodInfo)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static IEnumerable&lt;object&gt; GetCustomAttributes(MethodInfo method)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Reflection.MethodInfo</span></td>
+                    <td><em>method</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_HaveDifferentGenericArguments_System_Type_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.HaveDifferentGenericArguments(System.Type%2CSystem.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L142">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_HaveDifferentGenericArguments_System_Type_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.HaveDifferentGenericArguments(System.Type,System.Type)">HaveDifferentGenericArguments(Type, Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether two generic types have different generic arguments.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool HaveDifferentGenericArguments(Type baseType, Type inheritedType)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>baseType</em></td>
+                    <td><p>Base type to be checked.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>inheritedType</em></td>
+                    <td><p>Inherited type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_IsAnonymousType_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.IsAnonymousType(System.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L383">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_IsAnonymousType_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.IsAnonymousType(System.Type)">IsAnonymousType(Type)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool IsAnonymousType(Type type)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_IsGeneric_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.IsGeneric(System.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L99">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_IsGeneric_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.IsGeneric(System.Type)">IsGeneric(Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether a type is generic.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool IsGeneric(Type type)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td><p>Type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_IsGenericTypeDefinition_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.IsGenericTypeDefinition(System.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L119">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_IsGenericTypeDefinition_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.IsGenericTypeDefinition(System.Type)">IsGenericTypeDefinition(Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether a type is generic definition.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool IsGenericTypeDefinition(Type type)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td><p>Type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_IsNotGeneric_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.IsNotGeneric(System.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L109">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_IsNotGeneric_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.IsNotGeneric(System.Type)">IsNotGeneric(Type)</h4>
+              <div class="markdown level1 summary"><p>Checks whether a type is not generic.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool IsNotGeneric(Type type)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td><p>Type to be checked.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>True or false.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_ToFriendlyTypeName_System_Type_.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.ToFriendlyTypeName(System.Type)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L199">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_ToFriendlyTypeName_System_Type_" data-uid="MyTested.Mvc.Utilities.Reflection.ToFriendlyTypeName(System.Type)">ToFriendlyTypeName(Type)</h4>
+              <div class="markdown level1 summary"><p>Transforms generic type name to friendly one, showing generic type arguments.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string ToFriendlyTypeName(Type type)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Type</span></td>
+                    <td><em>type</em></td>
+                    <td><p>Type which name will be transformed.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>Transformed name as string.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_TryCreateInstance__1_System_Collections_Generic_IDictionary_System_Type_System_Object__.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.TryCreateInstance%60%601(System.Collections.Generic.IDictionary%7BSystem.Type%2CSystem.Object%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L246">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_TryCreateInstance__1_System_Collections_Generic_IDictionary_System_Type_System_Object__" data-uid="MyTested.Mvc.Utilities.Reflection.TryCreateInstance``1(System.Collections.Generic.IDictionary{System.Type,System.Object})">TryCreateInstance&lt;T&gt;(IDictionary&lt;Type, Object&gt;)</h4>
+              <div class="markdown level1 summary"><p>Tries to create instance of type T by using the provided unordered constructor parameters.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static T TryCreateInstance&lt;T&gt;(IDictionary&lt;Type, object&gt; constructorParameters = null)where T : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Type</span>, <span class="xref">System.Object</span>&gt;</td>
+                    <td><em>constructorParameters</em></td>
+                    <td><p>Unordered constructor parameters.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><p>Created instance or null, if no suitable constructor found.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td>Type of created instance.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_TryCreateInstance__1_System_Object___.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.TryCreateInstance%60%601(System.Object%5B%5D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L234">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_TryCreateInstance__1_System_Object___" data-uid="MyTested.Mvc.Utilities.Reflection.TryCreateInstance``1(System.Object[])">TryCreateInstance&lt;T&gt;(Object[])</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static T TryCreateInstance&lt;T&gt;(params object[] constructorParameters)where T : class</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span>[]</td>
+                    <td><em>constructorParameters</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/new/gh-pages/_docfx/apispec/new?filename=MyTested_Mvc_Utilities_Reflection_TryFastCreateInstance__1.md&amp;value=---%0Auid%3A%20MyTested.Mvc.Utilities.Reflection.TryFastCreateInstance%60%601%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ivaylokenov/MyTested.Mvc.SourceCode/blob/gh-pages/_docfx/code/src/MyTested.Mvc/Utilities/Reflection.cs/#L221">View Source</a>
+              </span>
+              <h4 id="MyTested_Mvc_Utilities_Reflection_TryFastCreateInstance__1" data-uid="MyTested.Mvc.Utilities.Reflection.TryFastCreateInstance``1">TryFastCreateInstance&lt;T&gt;()</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static T TryFastCreateInstance&lt;T&gt;()where T : class</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
