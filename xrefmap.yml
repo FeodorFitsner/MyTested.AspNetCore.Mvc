@@ -9052,6 +9052,54 @@ references:
   name: TryGetActionDescriptor(MethodInfo)
   href: api/MyTested.Mvc.Internal.Caching.ControllerActionDescriptorCache.html#MyTested_Mvc_Internal_Caching_ControllerActionDescriptorCache_TryGetActionDescriptor_System_Reflection_MethodInfo_
   fullName: MyTested.Mvc.Internal.Caching.ControllerActionDescriptorCache.TryGetActionDescriptor(System.Reflection.MethodInfo)
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry
+  name: MockedCacheEntry
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.#ctor
+  name: MockedCacheEntry()
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry__ctor
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.MockedCacheEntry()
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.#ctor(System.Object)
+  name: MockedCacheEntry(Object)
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry__ctor_System_Object_
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.MockedCacheEntry(System.Object)
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.AbsoluteExpiration
+  name: AbsoluteExpiration
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_AbsoluteExpiration
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.AbsoluteExpiration
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.AbsoluteExpirationRelativeToNow
+  name: AbsoluteExpirationRelativeToNow
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_AbsoluteExpirationRelativeToNow
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.AbsoluteExpirationRelativeToNow
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Dispose
+  name: Dispose()
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_Dispose
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Dispose()
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.ExpirationTokens
+  name: ExpirationTokens
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_ExpirationTokens
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.ExpirationTokens
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Key
+  name: Key
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_Key
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Key
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.PostEvictionCallbacks
+  name: PostEvictionCallbacks
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_PostEvictionCallbacks
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.PostEvictionCallbacks
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Priority
+  name: Priority
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_Priority
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Priority
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.SlidingExpiration
+  name: SlidingExpiration
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_SlidingExpiration
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.SlidingExpiration
+- uid: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Value
+  name: Value
+  href: api/MyTested.Mvc.Internal.Caching.MockedCacheEntry.html#MyTested_Mvc_Internal_Caching_MockedCacheEntry_Value
+  fullName: MyTested.Mvc.Internal.Caching.MockedCacheEntry.Value
 - uid: MyTested.Mvc.Internal.Caching.MockedEntryLink
   name: MockedEntryLink
   href: api/MyTested.Mvc.Internal.Caching.MockedEntryLink.html#MyTested_Mvc_Internal_Caching_MockedEntryLink
@@ -9094,10 +9142,6 @@ references:
   name: CreateEntry(Object)
   href: api/MyTested.Mvc.Internal.Caching.MockedMemoryCache.html#MyTested_Mvc_Internal_Caching_MockedMemoryCache_CreateEntry_System_Object_
   fullName: MyTested.Mvc.Internal.Caching.MockedMemoryCache.CreateEntry(System.Object)
-- uid: MyTested.Mvc.Internal.Caching.MockedMemoryCache.CreateLinkingScope
-  name: CreateLinkingScope()
-  href: api/MyTested.Mvc.Internal.Caching.MockedMemoryCache.html#MyTested_Mvc_Internal_Caching_MockedMemoryCache_CreateLinkingScope
-  fullName: MyTested.Mvc.Internal.Caching.MockedMemoryCache.CreateLinkingScope()
 - uid: MyTested.Mvc.Internal.Caching.MockedMemoryCache.Dispose
   name: Dispose()
   href: api/MyTested.Mvc.Internal.Caching.MockedMemoryCache.html#MyTested_Mvc_Internal_Caching_MockedMemoryCache_Dispose
@@ -9110,12 +9154,12 @@ references:
   name: Remove(Object)
   href: api/MyTested.Mvc.Internal.Caching.MockedMemoryCache.html#MyTested_Mvc_Internal_Caching_MockedMemoryCache_Remove_System_Object_
   fullName: MyTested.Mvc.Internal.Caching.MockedMemoryCache.Remove(System.Object)
-- uid: MyTested.Mvc.Internal.Caching.MockedMemoryCache.TryGetCacheEntry(System.Object,MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry@)
-  name: TryGetCacheEntry(Object, out IMockedMemoryCacheEntry)
-  href: api/MyTested.Mvc.Internal.Caching.MockedMemoryCache.html#MyTested_Mvc_Internal_Caching_MockedMemoryCache_TryGetCacheEntry_System_Object_MyTested_Mvc_Internal_Contracts_IMockedMemoryCacheEntry__
-  name.vb: TryGetCacheEntry(Object, ByRef IMockedMemoryCacheEntry)
-  fullName: MyTested.Mvc.Internal.Caching.MockedMemoryCache.TryGetCacheEntry(System.Object, out MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry)
-  fullName.vb: MyTested.Mvc.Internal.Caching.MockedMemoryCache.TryGetCacheEntry(System.Object, ByRef MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry)
+- uid: MyTested.Mvc.Internal.Caching.MockedMemoryCache.TryGetCacheEntry(System.Object,Microsoft.Extensions.Caching.Memory.ICacheEntry@)
+  name: TryGetCacheEntry(Object, out ICacheEntry)
+  href: api/MyTested.Mvc.Internal.Caching.MockedMemoryCache.html#MyTested_Mvc_Internal_Caching_MockedMemoryCache_TryGetCacheEntry_System_Object_Microsoft_Extensions_Caching_Memory_ICacheEntry__
+  name.vb: TryGetCacheEntry(Object, ByRef ICacheEntry)
+  fullName: MyTested.Mvc.Internal.Caching.MockedMemoryCache.TryGetCacheEntry(System.Object, out Microsoft.Extensions.Caching.Memory.ICacheEntry)
+  fullName.vb: MyTested.Mvc.Internal.Caching.MockedMemoryCache.TryGetCacheEntry(System.Object, ByRef Microsoft.Extensions.Caching.Memory.ICacheEntry)
 - uid: MyTested.Mvc.Internal.Caching.MockedMemoryCache.TryGetValue(System.Object,System.Object@)
   name: TryGetValue(Object, out Object)
   href: api/MyTested.Mvc.Internal.Caching.MockedMemoryCache.html#MyTested_Mvc_Internal_Caching_MockedMemoryCache_TryGetValue_System_Object_System_Object__
@@ -9174,12 +9218,12 @@ references:
   name: GetCacheAsDictionary()
   href: api/MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.html#MyTested_Mvc_Internal_Contracts_IMockedMemoryCache_GetCacheAsDictionary
   fullName: MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.GetCacheAsDictionary()
-- uid: MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.TryGetCacheEntry(System.Object,MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry@)
-  name: TryGetCacheEntry(Object, out IMockedMemoryCacheEntry)
-  href: api/MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.html#MyTested_Mvc_Internal_Contracts_IMockedMemoryCache_TryGetCacheEntry_System_Object_MyTested_Mvc_Internal_Contracts_IMockedMemoryCacheEntry__
-  name.vb: TryGetCacheEntry(Object, ByRef IMockedMemoryCacheEntry)
-  fullName: MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.TryGetCacheEntry(System.Object, out MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry)
-  fullName.vb: MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.TryGetCacheEntry(System.Object, ByRef MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry)
+- uid: MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.TryGetCacheEntry(System.Object,Microsoft.Extensions.Caching.Memory.ICacheEntry@)
+  name: TryGetCacheEntry(Object, out ICacheEntry)
+  href: api/MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.html#MyTested_Mvc_Internal_Contracts_IMockedMemoryCache_TryGetCacheEntry_System_Object_Microsoft_Extensions_Caching_Memory_ICacheEntry__
+  name.vb: TryGetCacheEntry(Object, ByRef ICacheEntry)
+  fullName: MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.TryGetCacheEntry(System.Object, out Microsoft.Extensions.Caching.Memory.ICacheEntry)
+  fullName.vb: MyTested.Mvc.Internal.Contracts.IMockedMemoryCache.TryGetCacheEntry(System.Object, ByRef Microsoft.Extensions.Caching.Memory.ICacheEntry)
 - uid: MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry
   name: IMockedMemoryCacheEntry
   href: api/MyTested.Mvc.Internal.Contracts.IMockedMemoryCacheEntry.html#MyTested_Mvc_Internal_Contracts_IMockedMemoryCacheEntry
