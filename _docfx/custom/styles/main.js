@@ -4,14 +4,13 @@ $(function() {
 		
 		if (elements.length != 0) {
 			clearInterval(interval);
+			
+			elements.each(function (i, el) {
+			  $(el).text($(el).text().replace('MyTested.Mvc.Builders.Contracts.', ''));
+			  $(el).text($(el).text().replace('MyTested.Mvc', 'Common'));
+			});
+			
+			$('#toc.toc').show();
 		}
-		else {
-			return;
-		}
-		
-		elements.each(function (i, el) {
-		  $(el).text($(el).text().replace('MyTested.Mvc.Builders.Contracts.', ''));
-		  $(el).text($(el).text().replace('MyTested.Mvc', 'Common'));
-		});
 	}, 200);
 })
