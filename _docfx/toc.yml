@@ -3,7 +3,7 @@
   href: tutorial/
 - name: Testing Guide
   href: guide/
-- name: Api Reference
+- name: API Reference
   href: api/
   homepage: api/index.md
 - name: Troubleshoot

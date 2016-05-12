@@ -23,7 +23,7 @@
     - name: HTTP Response
       href: httpresponse.md
     - name: Authenticated User
-      href: httpresponse.md
+      href: authenticateduser.md
 - name: Routing
   href: routing.md
   items: 
@@ -111,7 +111,7 @@
     - name: Null or Default Result
       href: nullordefault.md
 - name: Common
-  href: shouldpassfor.md
+  href: common.md
   items:
     - name: Should Pass For
       href: shouldpassfor.md
