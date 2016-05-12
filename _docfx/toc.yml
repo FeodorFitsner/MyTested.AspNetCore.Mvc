@@ -1,6 +1,10 @@
 
-- name: Articles
-  href: articles/
-- name: Api Documentation
+- name: Tutorial
+  href: tutorial/
+- name: Testing Guide
+  href: guide/
+- name: Api Reference
   href: api/
   homepage: api/index.md
+- name: Troubleshoot
+  href: troubleshoot/
