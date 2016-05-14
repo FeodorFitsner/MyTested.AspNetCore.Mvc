@@ -33,6 +33,8 @@
       href: routevalidation.md
     - name: Resolved Route Values
       href: routevalues.md
+    - name: Ignoring Route Values
+      href: ignoringroutevalues.md
 - name: Controllers
   href: controllers.md
   items:

@@ -14,6 +14,11 @@
 	color: #eee !important;
 }
 
+.article-contents {
+	margin-top: 50px;
+	font-size: 1.6em;
+}
+
 .content.wrap > h1 {
 	margin-top: -175px;
 }
@@ -48,7 +53,7 @@ footer a:hover {
 }
 
 .wrap {
-	margin-top: 80px;
+	margin-top: 90px;
 }
 
 .counter-key-section{
