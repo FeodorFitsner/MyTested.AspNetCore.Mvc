@@ -18,10 +18,14 @@
 - name: HTTP
   href: http.md
   items:
+    - name: HTTP Context
+      href: httpcontext.md
     - name: HTTP Request
       href: httprequest.md
     - name: HTTP Response
       href: httpresponse.md
+    - name: Response Cookies
+      href: cookies.md
     - name: Authenticated User
       href: authenticateduser.md
 - name: Routing
