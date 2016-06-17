@@ -1,27 +1,29 @@
 apiRules:
 - include:
-    uidRegex: ^MyTested.Mvc.AuthenticationScheme
+    uidRegex: ^MyTested.AspNetCore.Mvc.AuthenticationScheme
 - include:
-    uidRegex: ^MyTested.Mvc.ContentType
+    uidRegex: ^MyTested.AspNetCore.Mvc.ContentType
 - include:
-    uidRegex: ^MyTested.Mvc.HttpHeader
+    uidRegex: ^MyTested.AspNetCore.Mvc.HttpHeader
 - include:
-    uidRegex: ^MyTested.Mvc.HttpMethod
+    uidRegex: ^MyTested.AspNetCore.Mvc.HttpMethod
 - include:
-    uidRegex: ^MyTested.Mvc.HttpScheme
+    uidRegex: ^MyTested.AspNetCore.Mvc.HttpScheme
 - include:
-    uidRegex: ^MyTested.Mvc.HttpStatusCode
+    uidRegex: ^MyTested.AspNetCore.Mvc.HttpStatusCode
 - include:
-    uidRegex: ^MyTested.Mvc.MyMvc
+    uidRegex: ^MyTested.AspNetCore.Mvc.MyMvc
 - include:
-    uidRegex: ^MyTested.Mvc.ServiceCollectionExtensions
+    uidRegex: ^MyTested.AspNetCore.Mvc.ServiceCollectionExtensions
 - include:
-    uidRegex: ^MyTested.Mvc.With
+    uidRegex: ^MyTested.AspNetCore.Mvc.With
+- include:
+    uidRegex: Extensions$
 - exclude:
     type: Class
 - exclude:
     uidRegex: IAnd
 - exclude:
-    uidRegex: ^MyTested.Mvc.Internal
+    uidRegex: ^MyTested.AspNetCore.Mvc.Internal
 - include:
     type: Interface

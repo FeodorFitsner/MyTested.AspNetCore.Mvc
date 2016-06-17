@@ -6,8 +6,8 @@ $(function() {
 			clearInterval(interval);
 			
 			elements.each(function (i, el) {
-			  $(el).text($(el).text().replace('MyTested.Mvc.Builders.Contracts.', ''));
-			  $(el).text($(el).text().replace('MyTested.Mvc', 'Common'));
+			  $(el).text($(el).text().replace('MyTested.AspNetCore.Mvc.Builders.Contracts.', ''));
+			  $(el).text($(el).text().replace('MyTested.AspNetCore.Mvc', 'Common'));
 			});
 			
 			$('#toc.toc').show();
