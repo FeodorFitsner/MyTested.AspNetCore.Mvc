@@ -6,4 +6,4 @@ Here you will find My Tested ASP.NET Core MVC user-friendly descriptions and exa
 
 <span>Sorry for the inconvenience caused! :(</span>
 
-<img src="/images/cat-sorry.jpg" />
+<img src="/images/catsorry.jpg" />

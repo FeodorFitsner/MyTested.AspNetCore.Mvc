@@ -67,11 +67,6 @@ references:
   name.vb: WithModelStateErrorFor(Of TRequestModel)(IBadRequestTestBuilder)
   fullName: MyTested.AspNetCore.Mvc.BadRequestTestBuilderDataAnnotationsExtensions.WithModelStateErrorFor<TRequestModel>(MyTested.AspNetCore.Mvc.Builders.Contracts.ActionResults.BadRequest.IBadRequestTestBuilder)
   fullName.vb: MyTested.AspNetCore.Mvc.BadRequestTestBuilderDataAnnotationsExtensions.WithModelStateErrorFor(Of TRequestModel)(MyTested.AspNetCore.Mvc.Builders.Contracts.ActionResults.BadRequest.IBadRequestTestBuilder)
-- uid: MyTested.AspNetCore.Mvc.Builders.Contracts
-  name: MyTested.AspNetCore.Mvc.Builders.Contracts
-  href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.html#MyTested_AspNetCore_Mvc_Builders_Contracts
-  commentId: N:MyTested.AspNetCore.Mvc.Builders.Contracts
-  fullName: MyTested.AspNetCore.Mvc.Builders.Contracts
 - uid: MyTested.AspNetCore.Mvc.Builders.Contracts.ActionResults.BadRequest
   name: MyTested.AspNetCore.Mvc.Builders.Contracts.ActionResults.BadRequest
   href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.ActionResults.BadRequest.html#MyTested_AspNetCore_Mvc_Builders_Contracts_ActionResults_BadRequest
@@ -3656,18 +3651,6 @@ references:
   href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.Http.IResponseCookieTestBuilder.html#MyTested_AspNetCore_Mvc_Builders_Contracts_Http_IResponseCookieTestBuilder_WithValue_System_String_
   commentId: M:MyTested.AspNetCore.Mvc.Builders.Contracts.Http.IResponseCookieTestBuilder.WithValue(System.String)
   fullName: MyTested.AspNetCore.Mvc.Builders.Contracts.Http.IResponseCookieTestBuilder.WithValue(System.String)
-- uid: MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder
-  name: IOptionsBuilder
-  href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder.html#MyTested_AspNetCore_Mvc_Builders_Contracts_IOptionsBuilder
-  commentId: T:MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder
-  fullName: MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder
-- uid: MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder.For``1(System.Action{``0})
-  name: For<TOptions>(Action<TOptions>)
-  href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder.html#MyTested_AspNetCore_Mvc_Builders_Contracts_IOptionsBuilder_For__1_System_Action___0__
-  commentId: M:MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder.For``1(System.Action{``0})
-  name.vb: For(Of TOptions)(Action(Of TOptions))
-  fullName: MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder.For<TOptions>(System.Action<TOptions>)
-  fullName.vb: MyTested.AspNetCore.Mvc.Builders.Contracts.IOptionsBuilder.For(Of TOptions)(System.Action(Of TOptions))
 - uid: MyTested.AspNetCore.Mvc.Builders.Contracts.Models
   name: MyTested.AspNetCore.Mvc.Builders.Contracts.Models
   href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.Models.html#MyTested_AspNetCore_Mvc_Builders_Contracts_Models
@@ -3761,23 +3744,6 @@ references:
   name.vb: For(Of TModel)()
   fullName: MyTested.AspNetCore.Mvc.Builders.Contracts.Models.IModelStateTestBuilder.For<TModel>()
   fullName.vb: MyTested.AspNetCore.Mvc.Builders.Contracts.Models.IModelStateTestBuilder.For(Of TModel)()
-- uid: MyTested.AspNetCore.Mvc.Builders.Contracts.Options
-  name: MyTested.AspNetCore.Mvc.Builders.Contracts.Options
-  href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.Options.html#MyTested_AspNetCore_Mvc_Builders_Contracts_Options
-  commentId: N:MyTested.AspNetCore.Mvc.Builders.Contracts.Options
-  fullName: MyTested.AspNetCore.Mvc.Builders.Contracts.Options
-- uid: MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder
-  name: IOptionsBuilder
-  href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder.html#MyTested_AspNetCore_Mvc_Builders_Contracts_Options_IOptionsBuilder
-  commentId: T:MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder
-  fullName: MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder
-- uid: MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder.For``1(System.Action{``0})
-  name: For<TOptions>(Action<TOptions>)
-  href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder.html#MyTested_AspNetCore_Mvc_Builders_Contracts_Options_IOptionsBuilder_For__1_System_Action___0__
-  commentId: M:MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder.For``1(System.Action{``0})
-  name.vb: For(Of TOptions)(Action(Of TOptions))
-  fullName: MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder.For<TOptions>(System.Action<TOptions>)
-  fullName.vb: MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder.For(Of TOptions)(System.Action(Of TOptions))
 - uid: MyTested.AspNetCore.Mvc.Builders.Contracts.Routes
   name: MyTested.AspNetCore.Mvc.Builders.Contracts.Routes
   href: api/MyTested.AspNetCore.Mvc.Builders.Contracts.Routes.html#MyTested_AspNetCore_Mvc_Builders_Contracts_Routes
@@ -4250,13 +4216,13 @@ references:
   href: api/MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.html#MyTested_AspNetCore_Mvc_ControllerBuilderOptionsExtensions
   commentId: T:MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions
   fullName: MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions
-- uid: MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions``1(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder{``0},System.Action{MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder})
+- uid: MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions``1(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder{``0},System.Action{IOptionsBuilder})
   name: WithOptions<TController>(IControllerBuilder<TController>, Action<IOptionsBuilder>)
-  href: api/MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.html#MyTested_AspNetCore_Mvc_ControllerBuilderOptionsExtensions_WithOptions__1_MyTested_AspNetCore_Mvc_Builders_Contracts_Controllers_IControllerBuilder___0__System_Action_MyTested_AspNetCore_Mvc_Builders_Contracts_Options_IOptionsBuilder__
-  commentId: M:MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions``1(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder{``0},System.Action{MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder})
+  href: api/MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.html#MyTested_AspNetCore_Mvc_ControllerBuilderOptionsExtensions_WithOptions__1_MyTested_AspNetCore_Mvc_Builders_Contracts_Controllers_IControllerBuilder___0__System_Action_IOptionsBuilder__
+  commentId: M:MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions``1(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder{``0},System.Action{IOptionsBuilder})
   name.vb: WithOptions(Of TController)(IControllerBuilder(Of TController), Action(Of IOptionsBuilder))
-  fullName: MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions<TController>(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder<TController>, System.Action<MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder>)
-  fullName.vb: MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions(Of TController)(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder(Of TController), System.Action(Of MyTested.AspNetCore.Mvc.Builders.Contracts.Options.IOptionsBuilder))
+  fullName: MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions<TController>(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder<TController>, System.Action<IOptionsBuilder>)
+  fullName.vb: MyTested.AspNetCore.Mvc.ControllerBuilderOptionsExtensions.WithOptions(Of TController)(MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder(Of TController), System.Action(Of IOptionsBuilder))
 - uid: MyTested.AspNetCore.Mvc.ControllerBuilderSessionExtensions
   name: ControllerBuilderSessionExtensions
   href: api/MyTested.AspNetCore.Mvc.ControllerBuilderSessionExtensions.html#MyTested_AspNetCore_Mvc_ControllerBuilderSessionExtensions
