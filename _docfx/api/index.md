@@ -4,6 +4,6 @@ Here you will find My Tested ASP.NET Core MVC API reference containing detailed 
 
 Commonly used types:
 
-- [MyMvc](/MyTested.AspNetCore.Mvc/api/MyTested.AspNetCore.Mvc.MyMvc.html) - starting point of the framework
-- [IControllerBuilder](/MyTested.AspNetCore.Mvc/api/MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder`1.html) - controller test builder
-- [IRouteTestBuilder](/MyTested.AspNetCore.Mvc/api/MyTested.AspNetCore.Mvc.Builders.Contracts.Routes.IRouteTestBuilder.html) - route test builder
+- [MyMvc](/api/MyTested.AspNetCore.Mvc.MyMvc.html) - starting point of the framework
+- [IControllerBuilder](/api/MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder`1.html) - controller test builder
+- [IRouteTestBuilder](/api/MyTested.AspNetCore.Mvc.Builders.Contracts.Routes.IRouteTestBuilder.html) - route test builder

@@ -6,4 +6,4 @@ Here you will find My Tested ASP.NET Core MVC tutorial, in which you will learn 
 
 <span>Sorry for the inconvenience caused! :(</span>
 
-<img src="/MyTested.AspNetCore.Mvc/images/catsorry.jpg" />
+<img src="/images/catsorry.jpg" />
