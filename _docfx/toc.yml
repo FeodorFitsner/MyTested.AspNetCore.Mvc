@@ -8,3 +8,5 @@
   homepage: api/index.md
 - name: Troubleshoot
   href: troubleshoot/
+- name: About
+  href: http://mytestedasp.net/core/mvc
