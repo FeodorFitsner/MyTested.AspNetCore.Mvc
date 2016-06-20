@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{_rel}}index.html">
-        MY TESTED MVC DOCS
+        MY TESTED ASP.NET CORE MVC DOCS
       </a>
     </div>
     <div class="collapse navbar-collapse" id="navbar">

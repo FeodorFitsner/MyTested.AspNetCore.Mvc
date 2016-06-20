@@ -1,3 +1,9 @@
+# Welcome to the API Reference
 
-# PLACEHOLDER
-TODO: Add .NET projects to *src* folder and run `docfx` to generate a **REAL** *API Documentation*!
+Here you will find My Tested ASP.NET Core MVC API reference containing detailed information on all publicly available assertion methods and classes.
+
+Commonly used types:
+
+- [MyMvc](/api/MyTested.AspNetCore.Mvc.MyMvc.html) - starting point of the framework
+- [IControllerBuilder](/api/MyTested.AspNetCore.Mvc.Builders.Contracts.Controllers.IControllerBuilder`1.html) - controller test builder
+- [IRouteTestBuilder](/api/MyTested.AspNetCore.Mvc.Builders.Contracts.Routes.IRouteTestBuilder.html) - route test builder

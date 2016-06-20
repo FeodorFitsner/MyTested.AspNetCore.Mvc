@@ -1,5 +1,5 @@
 ---
-title: Welcome to My Tested MVC docs!
+title: Welcome to My Tested ASP.NET Core MVC docs!
 documentType: index
 ---
 <style type="text/css">
@@ -11,7 +11,7 @@ footer{
 <div class="hero">
   <div class="wrap">
     <div class="text">
-      <strong>MY TESTED MVC DOCS</strong>
+      <strong>MY TESTED ASP.NET CORE MVC DOCS</strong>
     </div>
     <div class="minitext">
     A fluent unit testing library for ASP.NET Core MVC
@@ -24,7 +24,7 @@ footer{
       <div class="col-md-6 text-center">
         <section>
           <h2>TUTORIAL</h2>
-          <p class="lead">Start from here to learn how to setup a your test project by using My Tested MVC</p>
+          <p class="lead">Start from here to learn how to setup a your test project by using My Tested ASP.NET Core MVC</p>
         </section>
       </div>
       <div class="col-md-6 text-center">

@@ -1,7 +1,9 @@
 # Welcome to the Testing Guide
 
-Here you will find My Tested MVC user-friendly descriptions and examples for all available assertion APIs
+Here you will find My Tested ASP.NET Core MVC user-friendly descriptions and examples for all available assertion APIs.
 
-<span class="article-contents">You can start with these topics</span>
- - [Installation](/guide/installation.html) - How to install My Tested MVC
- - [Packages](/guide/packages.html) - All available My Tested MVC packages
+<strong class="article-contents">The testing guide is still work in progress...</strong>
+
+<span>Sorry for the inconvenience caused! :(</span>
+
+<img src="/images/cat-sorry.jpg" />
