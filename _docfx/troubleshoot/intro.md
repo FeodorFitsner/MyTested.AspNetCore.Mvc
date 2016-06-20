@@ -6,4 +6,4 @@ Here you will find My Tested ASP.NET Core MVC solutions for frequently asked que
 
 <span>Sorry for the inconvenience caused! :(</span>
 
-<img src="/images/catsorry.jpg" />
+<img src="/MyTested.AspNetCore.Mvc/images/catsorry.jpg" />
