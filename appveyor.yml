@@ -1,0 +1,8 @@
+install:
+- dotnet restore
+
+build_script:
+- msbuild "MyTested.AspNetCore.Mvc.sln" /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+
+test_script:
+- dotnet test "samples/MusicStore/MusicStore.Test/project.json" --configuration Release
